@@ -1,6 +1,7 @@
 # 📊 Bank Loan Data Analysis Report 
 
-This project presents a comprehensive analysis of loan application data using **SQL queries executed in Microsoft SQL Server (MSSQL)**. The objective is to extract business insights from loan data, covering key performance indicators (KPIs), loan performance trends, regional analysis, and borrower segmentation.
+This project presents a comprehensive analysis of loan application data using **SQL queries executed in Microsoft SQL Server (MSSQL)**. The objective is to extract business insights from loan data, covering key performance indicators (KPIs), loan performance trends, regional analysis, and borrower segmentation. 
+An **Excel Dashboard** was created to visualize the same insights. Various Excel visual elements such as Slicers, Bar Charts, Donut Charts, Line Charts, Tree Maps, and Maps were used for dynamic analysis and presentation of results.
 
 ---
 
@@ -12,17 +13,17 @@ This project presents a comprehensive analysis of loan application data using **
 - Average interest rate.
 - Average Debt-to-Income (DTI) ratio.
 
-All KPIs were computed using SQL aggregation queries within MSSQL.
+All KPIs were computed using SQL aggregation queries within MSSQL. KPIs are also visualised using Exceldashboard.
 
 ---
 
 ## 📊 Good Loans vs Bad Loans Analysis
 
 Loan statuses were categorized to distinguish:
-- **Good Loans**: Fully Paid, Current, Issued.
-- **Bad Loans**: Defaulted, Charged Off, Late.
+- **Good Loans**: Fully Paid, Current.
+- **Bad Loans**:  Charged Off.
 
-Percentage distributions were calculated to evaluate loan portfolio health and default risks.
+Percentage distributions were calculated to evaluate loan portfolio health and default risks. Also Visualised in Excel interactive dashboard
 
 ---
 
@@ -33,7 +34,7 @@ Analyzed loan issuance patterns based on issue dates:
 - Funded amounts and repayments over time.
 - Seasonal patterns identified.
 
-SQL date functions were used for time-based grouping and trend analysis.
+SQL date functions were used for time-based grouping and trend analysis. Excel dashbord helps easy visualisation.
 
 ---
 
@@ -44,7 +45,7 @@ A state-wise analysis was conducted to:
 - Analyze funded and received amounts per state.
 - Observe regional variations in loan performance.
 
-All computations were performed via SQL queries using GROUP BY and aggregate functions.
+All computations were performed via SQL queries using GROUP BY and aggregate functions and the result is compared with that in Excel dashboard.
 
 ---
 
@@ -68,7 +69,7 @@ The dataset was segmented based on multiple borrower attributes:
 - Performance analyzed by ownership types: Rent, Mortgage, Own.
 - Correlations between ownership status and repayment behavior were observed.
 
-Segmentation was achieved using SQL filters, CASE statements, and grouping.
+Segmentation was achieved using SQL filters, CASE statements, and grouping. And visualised in Excel dashboard for analysis.
 
 ---
 
@@ -82,7 +83,7 @@ Segmentation was achieved using SQL filters, CASE statements, and grouping.
 
 ## 📝 Conclusion
 
-All insights were generated using **pure SQL queries in Microsoft SQL Server (MSSQL)**. No external BI tools or visualization software were used. This analysis helps in understanding borrower behavior, loan performance trends, and regional dynamics, assisting in data-driven decision-making for financial institutions.
+All insights were generated using **pure SQL queries in Microsoft SQL Server (MSSQL)** and Visualised using **Excel dashboard**. This analysis helps in understanding borrower behavior, loan performance trends, and regional dynamics, assisting in data-driven decision-making for financial institutions.
 
 ---
 
